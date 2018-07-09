@@ -71,7 +71,7 @@ public class MyView extends View{
         paintnr.setStrokeWidth(20);
 
 
-       mycanvas.drawColor(Color.GREEN);
+       mycanvas.drawColor(Color.GRAY);
        mycanvas.drawText(contents,mycanvas.getWidth()/4,mycanvas.getHeight()/2,paintnr);
     }
 
